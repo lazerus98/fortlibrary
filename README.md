@@ -21,8 +21,8 @@ automatically.
 ## Metadata
 
 Each blueprint carries its card metadata inside its own `#notes` section (title, author, tags,
-df_version, description, and optionally `colors:` for author-picked preview tile colours), so the
-file stays a valid, self-contained blueprint.
+description, and optionally `colors:` for author-picked preview tile colours), so the file stays
+a valid, self-contained blueprint.
 
 ## License
 

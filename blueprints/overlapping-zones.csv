@@ -4,5 +4,4 @@ n{name=Paddock}m{name=Commons}(6x5)
 title: Overlapping pasture and meeting area
 author: catten
 "tags: zone, pasture, meeting area, overlap, starter"
-df_version: 50.x
 description: One tile footprint that is two zones at once. The token n{name=Paddock}m{name=Commons}(6x5) stacks a pen/pasture (n) and a meeting area (m) on the same 6x5 area, each with its own name property, then one shared (6x5) extent expands both from the anchor cell down and to the right. DFHack applies every zone type in the cell to the same tiles, so grazing animals and idling dwarves share the space, which saves surface room near the entrance. Add a type letter to stack more zones (for example a garbage dump d over a pond), and give each its own {name ...} block. This is also the corpus's first example of the compact (WxH) area-extent form: one anchor cell paints the whole rectangle instead of filling a grid of repeated tokens.

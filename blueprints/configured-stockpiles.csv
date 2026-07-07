@@ -6,5 +6,4 @@ f{name=Drinks barrels=4}:=booze,f{name=Drinks barrels=4}:=booze,,f{name=Seeds ba
 title: Configured food stockpiles (booze and seeds)
 author: catten
 "tags: stockpile, place, config, brewing, seeds, starter"
-df_version: 50.x
 description: Two named and filtered food stockpiles that show the DFHack quickfort stockpile-config tokens. The left 2x3 pile is named Drinks, carries four barrels, and is set to hold only booze (:=booze). The right 2x3 pile is named Seeds and set to hold only seeds (:=seeds) with barrels=0, the standard trick that keeps seeds out of barrels so they do not spoil. A one-tile gap between them keeps the two piles separate. Both use the {name ... container} property block plus a :config preset, so painting them shows how per-type filtering and container counts attach to a stockpile.

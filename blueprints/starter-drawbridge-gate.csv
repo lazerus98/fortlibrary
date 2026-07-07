@@ -8,5 +8,4 @@ Tl,,
 title: Entrance drawbridge and lever
 author: urist
 "tags: build, bridge, drawbridge, defense, starter"
-df_version: 50.x
 description: A raising drawbridge to seal your fort entrance. The bridge tokens are directional: gw raises the span to the north so it walls off the corridor behind it when pulled. Build a lever within walking distance and link it to the bridge to raise and lower the gate. Widen or lengthen the bridge by painting a larger gw block; Quickfort builds one bridge per contiguous same-type area.

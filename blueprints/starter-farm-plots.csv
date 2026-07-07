@@ -7,5 +7,4 @@ o,o,o,o,o,o,o
 title: Twin farm plots with a hauling road
 author: libash
 "tags: build, farm, farm plot, road, food, starter"
-df_version: 50.x
 description: Two 3x3 farm plots joined by a paved road for early food production. Each plot is written as p{seasonal_fertilize=true}(3x3): the p token is a farm plot, the {seasonal_fertilize=true} property tells the plot to fertilize itself every season, and the (3x3) extent fills the whole plot from its anchor cell down and to the right, so you only paint one tile per plot. The o tokens along the bottom lay a paved road so haulers cross the plots quickly; O would lay a dirt road instead (no stone needed, slower to build). Farm plots need a floor of soil or mud-covered stone, so dig out the area first (or run a muddying blueprint) before you build. After Quickfort places the plots, open each in the farming screen to pick which crop grows in each season.

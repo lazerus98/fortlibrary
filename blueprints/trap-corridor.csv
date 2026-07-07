@@ -11,6 +11,5 @@ Tl,,
 title: Defensive trap corridor
 author: urist
 "tags: build, trap, defense, military, starter"
-df_version: 50.x
 colors: Tw=#e05263 Tc=#d49a44 TS=#9b5de5
 description: A gauntlet for your fort entrance built entirely from the trap family of #build tokens. Invaders walk up the center column and cross Tw (weapon trap, holds sharp weapons that slash), Tc (cage trap, catches a creature whole for later), and Ts (stone-fall trap, drops a boulder once then needs a reload). At the far end sit two TS upright spears flanking a Tp pressure plate: a creature stepping on the plate can drive the spikes, or you pull the Tl lever to work them by hand. All trap tokens are non-directional, so you paint them straight onto the tiles the enemy must walk. After Quickfort builds them, load each trap with its item (weapons, a cage, mechanisms) and link the spikes to the plate or the lever in-game; Quickfort places the buildings but cannot wire the linkage. Widen the killing field by painting more Tw and Tc down a longer hallway. The siege-workshop engines ic (catapult) and ib (ballista) are the ranged siblings of this family; they are directional and are left out here so the corridor stays unambiguous.
