@@ -1,0 +1,14 @@
+#place label(quantum_place) start(1; 1) message(A minecart quantum stockpile. Apply at the top left tile; then assign a minecart to the Quantum route in the Hauling menu so the track stop dumps stone onto the one tile Quantum pile.)
+s{name=Feeder},s{name=Feeder},s{name=Feeder},,s{name=Quantum quantum=true}
+s{name=Feeder},s{name=Feeder},s{name=Feeder},,
+s{name=Feeder},s{name=Feeder},s{name=Feeder},,
+#build label(quantum_build) start(1; 1)
+,,,,
+,,,,trackstopN{take_from="Feeder" route="Quantum"}
+,,,,
+#notes
+title: Quantum stockpile (track stop and feeder)
+author: urist
+"tags: quantum, stockpile, minecart, track stop, hauling, build, place"
+df_version: 50.x
+description: A minecart quantum stockpile: the compact storage trick that stacks an unlimited amount of one good onto a single tile. A 3x3 stone feeder pile named Feeder sits on the left; a one tile Quantum pile sits at the top right (quantum=true is shorthand for containers=0 and links_only=true so the tile only ever receives dumped items); a trackstopN one tile below it dumps north onto that tile. The track stop takes from the Feeder pile and creates a hauling route named Quantum. After applying the blueprint: open the Hauling menu and assign a minecart to the Quantum route so haulers begin loading it at the feeder and the stop dumps each load onto the one tile pile. Swap the s tokens for any stockpile type (or combine letters like sw for stone plus wood) to quantum store other goods; append a :config filter after the track stop token to restrict which items it accepts. Omit the route property if you plan to apply this blueprint more than once so each copy gets its own route.

@@ -1,0 +1,9 @@
+#build label(roller_line) start(1; 1) message(A powered roller conveyor. A water wheel drives a horizontal axle into a gear assembly, and the gear powers a line of east-facing rollers that push items placed on them to the east. Link a lever to the gear to run the belt on and off. The rollers only move items while powered, so the whole train must form a connected power path back to the wheel.)
+Mw,Mh,Mg,rollerEW{speed=50000},rollerEW{speed=50000},rollerEW{speed=50000}
+,,Tl,,,
+#notes
+title: Powered roller conveyor (rollers and axles)
+author: kadol
+"tags: build, machine, roller, axle, power, hauling"
+df_version: 50.x
+description: A minimal powered conveyor that shows the roller and axle tokens the screw-pump example did not cover. Mw is a water wheel built over moving water; it feeds Mh, a horizontal axle running east-west, into Mg, a gear assembly. From the gear, a line of rollerEW rollers carries power east and pushes any item set on them one tile east per cycle. Rollers are directional: rollerEW moves items east, rollerWE west, rollerNS south, rollerSN north. Each roller takes a speed property from 50000 (fastest) down to 10000 (slowest); 50000 is used here. The gear assembly Mg is the junction you link a lever (Tl) to, so you can start and stop the belt without deconstructing it. To carry power across a Z-level use Mv, a vertical axle, and to run an axle north-south use Mhs instead of Mh. Placement rules the blueprint cannot enforce: the water wheel must sit over flowing water, every machine must form a connected power path back to a power source, and the wheel plus rollers draw power that the source has to supply. Lengthen the belt by painting more rollerEW tiles, or branch power off the gear with another axle run.

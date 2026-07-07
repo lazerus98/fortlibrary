@@ -1,0 +1,12 @@
+#zone label(grand_temple) start(1; 1) message(One temple split across two separate 5x5 chambers. Both meeting-area zones carry location=temple/grand: the shared label after the slash binds them into a SINGLE temple named The Grand Temple rather than two. Apply on the top-left tile; each (5x5) extent fills down and to the right. Only the first zone needs the name and desired_ props; the label does the joining. Build the altars and statues inside afterward.)
+m{location=temple/grand name="The Grand Temple" desired_instruments=5}(5x5),,,,,,m{location=temple/grand}(5x5),,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+#notes
+title: Grand temple across two chambers
+author: solon
+"tags: zone, location, temple, shared, label"
+df_version: 50.x
+description: One location spread across two physically separate zones: the shared-label technique that the civic-quarter example only mentions in passing. Both 5x5 meeting-area zones (m) carry the property location=temple/grand. The part before the slash is the location type (temple); the part after it (grand) is a label. Every zone that repeats the same type/label is attached to the SAME location instead of creating its own. So these two disjoint chambers become one temple named The Grand Temple. That is how you make a location bigger than a single rectangle: wrap it around a stairwell or a pillar or span it across a corridor. Only the first zone carries the name and the desired_instruments target because those describe the one shared location; the second zone just repeats location=temple/grand to join it. Drop the /grand label from one of them and you would get two separate smaller temples instead. The same trick works for any location type (location=tavern/mainpub on several rooms feeds one tavern; location=hospital/ward on two wings makes one hospital). The one location feature not shown anywhere in the corpus is guildhall which additionally needs a profession property naming the guild's trade; it is left out here because its exact profession values are worth verifying in-game first. Placement the blueprint cannot do for you: a temple still needs its furniture built (altars and statues and chairs are #build furniture not zone tiles) and worshippers claim it on their own once it exists.

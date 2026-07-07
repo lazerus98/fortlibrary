@@ -1,0 +1,9 @@
+#build label(pump_station) start(1; 1) message(A powered screw pump that lifts water or magma one tile to the north. Msu is directional: it draws from the tile to its south and ejects to the tile to its north, so aim the pump before you build. Power flows from the water wheel west to east through the axle and gear; link a lever to the gear assembly to switch the whole train on and off.)
+Mw,Mh,Mg,Msu
+,,Tl,
+#notes
+title: Powered screw pump station (directional machinery)
+author: urist
+"tags: build, machine, screw pump, power, water"
+df_version: 50.x
+description: A minimal powered pump station showing Dwarf Fortress machine tokens. Msu is a screw pump that ejects to the NORTH (its variants Msk/Msm/Msh eject east/south/west), so it draws water or magma from the tile to its south and pushes it to the tile to its north. Power comes from Mw, a water wheel built over flowing water; it feeds Mh, a horizontal axle running east-west, into Mg, a gear assembly. The gear is the junction you link a lever (Tl) to so you can engage or disengage the pump without deconstructing it. Placement rules the blueprint cannot enforce: the water wheel must sit over moving water, the pump's south intake tile must hold the liquid you want to raise, and the machines must form a connected power path. Rotate the pump direction by choosing the matching token, and lengthen the drive train by painting more Mh axle tiles between the wheel and the gear.

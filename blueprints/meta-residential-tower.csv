@@ -1,0 +1,14 @@
+#meta label(residence_tower) message(Dig a five floor residential tower in one pass. Place the cursor on the top floor where the central stair goes; the plan repeats down so every floor shares one stair shaft.)
+/residence_floor repeat(down 5)
+#dig label(residence_floor) start(3; 3)
+d,d,d,d,d
+d,d,d,d,d
+d,d,i,d,d
+d,d,d,d,d
+d,d,d,d,d
+#notes
+title: Residential tower (meta, repeat down)
+author: urist
+"tags: meta, multi-level, tower, repeat, starter"
+df_version: 50.x
+description: A #meta blueprint that stacks one floor into a five level residential tower. The meta references a single #dig blueprint by its label (/residence_floor) and applies the repeat(down 5) marker, so the floor is stamped five times, once per Z-level going down, all sharing the central up/down stair (i). This is the corpus's first #meta example: a meta blueprint orchestrates other blueprints in the same file by label rather than painting tiles itself. A meta can list several /label references (one per line, with #> or #< to step a Z-level between them) to chain multiple phases, and each reference can carry its own shift() or transform() marker to offset, rotate, or flip the blueprint it applies. Note the marker is written repeat(down 5) with no comma: inside a CSV cell a comma would split the reference into two columns, and Quickfort treats the comma as optional. Run it with the cursor on the top floor stair tile and DFHack designates the whole shaft at once.

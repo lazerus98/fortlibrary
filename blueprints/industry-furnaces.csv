@@ -1,0 +1,14 @@
+#build label(industry_furnaces) start(1; 1) message(A compact furnace block: smelter and kiln on top; wood furnace and glass furnace below. Each is a 3x3 building with one-tile aisles so haulers reach every station. Smelters and kilns need fuel (coke or charcoal) unless you use the magma variants el and en over magma.)
+es,es,es,,ek,ek,ek
+es,es,es,,ek,ek,ek
+es,es,es,,ek,ek,ek
+,,,,,,
+ew,ew,ew,,eg,eg,eg
+ew,ew,ew,,eg,eg,eg
+ew,ew,ew,,eg,eg,eg
+#notes
+title: Industry furnace block
+author: urist
+"tags: build, furnace, industry, smelting, glass"
+df_version: 50.x
+description: Four core industry furnaces from the furnace family of #build tokens, laid out as a compact 2x2 block with one-tile aisles between them. Top row: es (smelter, turns ore into metal bars) and ek (kiln, fires clay into ceramics and burns wood or bones into ash and bonemeal). Bottom row: ew (wood furnace, burns logs into charcoal fuel) and eg (glass furnace, melts sand into green glass). Each furnace is a full 3x3 footprint, so paint the whole square for every station and keep the aisles clear so haulers can carry ore, fuel, and finished bars. Placement rules the blueprint cannot enforce: a smelter, kiln, and glass furnace all need fuel, so build a wood furnace or an ashery nearby to make charcoal, or dig down to magma and swap in the magma siblings el (magma smelter) and en (magma kiln), which need no fuel but must sit over a magma pool. Build this next to your ore and sand stockpiles and near a wood stockpile that feeds the wood furnace.
