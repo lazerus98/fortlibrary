@@ -15,9 +15,8 @@ DFHack's quickfort, or open it in the [editor](https://fortplanner.com) to inspe
 ## Sharing your own
 
 Use the submission form on [blueprints.fortplanner.com](https://blueprints.fortplanner.com):
-paste your blueprint straight from the editor, no account needed. Automated checks run first;
-most blueprints publish within minutes, a few get a quick human look. Accepted submissions are
-committed here automatically.
+paste your blueprint straight from the editor. Accepted submissions are committed here
+automatically.
 
 ## Metadata
 
