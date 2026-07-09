@@ -28,4 +28,4 @@ a valid, self-contained blueprint.
 
 Everything in `blueprints/` is dedicated to the public domain under
 [CC0 1.0](LICENSE): use, adapt, and re-share freely. Crediting the author named in the file is
-appreciated, never required. By submitting a blueprint you agree to this dedication.
+appreciated. By submitting a blueprint you agree to this dedication.
