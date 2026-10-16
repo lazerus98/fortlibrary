@@ -1,0 +1,36 @@
+#dig
+#01
+d,d,d,d,d,d,r,h,d,d,d,d,d,d
+d,d,d,d,d,d,r,h,d,d,d,d,d,d
+d,d,d,d,d,d,r,h,d,d,d,d,d,d
+d,d,d,d,d,d,h,r,d,d,d,d,d,d
+d,d,d,d,d,d,h,r,d,d,d,d,d,d
+d,d,d,d,d,d,h,r,d,d,d,d,d,d
+h,h,h,r,r,r,,,h,h,h,r,r,r
+r,r,r,h,h,h,,,r,r,r,h,h,h
+d,d,d,d,d,d,r,h,d,d,d,d,d,d
+d,d,d,d,d,d,r,h,d,d,d,d,d,d
+d,d,d,d,d,d,r,h,d,d,d,d,d,d
+d,d,d,d,d,d,h,r,d,d,d,d,d,d
+d,d,d,d,d,d,h,r,d,d,d,d,d,d
+d,d,d,d,d,d,h,r,d,d,d,d,d,d
+#>
+d,d,d,d,d,d,h,r,d,d,d,d,d,d
+d,d,d,d,d,d,h,r,d,d,d,d,d,d
+d,d,d,d,d,d,h,r,d,d,d,d,d,d
+d,d,d,d,d,d,r,h,d,d,d,d,d,d
+d,d,d,d,d,d,r,h,d,d,d,d,d,d
+d,d,d,d,d,d,r,h,d,d,d,d,d,d
+r,r,r,h,h,h,,,r,r,r,h,h,h
+h,h,h,r,r,r,,,h,h,h,r,r,r
+d,d,d,d,d,d,h,r,d,d,d,d,d,d
+d,d,d,d,d,d,h,r,d,d,d,d,d,d
+d,d,d,d,d,d,h,r,d,d,d,d,d,d
+d,d,d,d,d,d,r,h,d,d,d,d,d,d
+d,d,d,d,d,d,r,h,d,d,d,d,d,d
+d,d,d,d,d,d,r,h,d,d,d,d,d,d
+#notes
+title: rampcase up and down
+author: lazerus
+"tags: ramps, staircase"
+description: main staircase of ramps intertwined
